@@ -1,9 +1,9 @@
 // pages/index.tsx
 import React from 'react';
-import TradingLayout from '../components/Layout/TradingLayout';
+import NavBar from '@/components/Layout/NavBar';
 
 const HomePage: React.FC = () => {
-  return <TradingLayout />;
+  return <NavBar />;
 };
 
 export default HomePage;
